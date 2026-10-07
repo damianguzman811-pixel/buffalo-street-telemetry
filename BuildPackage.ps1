@@ -23,4 +23,3 @@ if (Test-Path -LiteralPath $archive) {
 Compress-Archive -Path (Join-Path $projectRoot '*') -DestinationPath $archive -CompressionLevel Optimal
 Write-Output "Built $archive"
 
-

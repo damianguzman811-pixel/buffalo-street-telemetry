@@ -32,4 +32,3 @@ In game, open CET’s overlay and select **Buffalo Street Telemetry** from the M
 - Cyberpunk 2077 and Grand Theft Auto V Legacy remain required player-owned games. No game assets or extracted game files are included.
 - This is an unofficial fan prototype and is not affiliated with CD Projekt Red, Rockstar Games, or Take-Two Interactive.
 
-
