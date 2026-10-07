@@ -1,0 +1,14 @@
+# Per-user companion data generated from the player's GTA install.
+profile.ini
+**/profile.ini
+
+# Local build and test artifacts.
+__pycache__/
+*.py[cod]
+.venv*/
+dist/
+outputs/
+work/
+test-safety/
+*.log
+

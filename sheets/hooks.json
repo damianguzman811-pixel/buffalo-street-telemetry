@@ -1,0 +1,23 @@
+[
+  {
+    "id": "load_companion_profile",
+    "system_id": "buffalo_driving_benchmark",
+    "event": "onInit",
+    "operation": "Read the helper-generated local profile.ini from this CET mod folder.",
+    "code_file": "src/CetMod/init.lua"
+  },
+  {
+    "id": "sample_vehicle_telemetry",
+    "system_id": "buffalo_driving_benchmark",
+    "event": "onUpdate",
+    "operation": "While a benchmark is active, sample the mounted Cyberpunk vehicle's current speed and world position.",
+    "code_file": "src/CetMod/init.lua"
+  },
+  {
+    "id": "draw_benchmark_panel",
+    "system_id": "buffalo_driving_benchmark",
+    "event": "onDraw",
+    "operation": "Draw the companion reference and benchmark controls/results in CET ImGui.",
+    "code_file": "src/CetMod/init.lua"
+  }
+]

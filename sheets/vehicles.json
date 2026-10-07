@@ -1,0 +1,40 @@
+[
+  {
+    "id": "bravado_buffalo",
+    "game": "gta-v",
+    "game_build": "Legacy",
+    "display_name": "Bravado Buffalo",
+    "model_name": "buffalo",
+    "vehicle_class": "VC_SPORT",
+    "handling_id": "BUFFALO",
+    "archive_path": "update/update.rpf",
+    "vehicle_meta_path": "common/data/levels/gta5/vehicles.meta",
+    "handling_meta_path": "common/data/handling.meta",
+    "source_fields": [
+      "fMass",
+      "fInitialDriveForce",
+      "nInitialDriveGears",
+      "fInitialDriveMaxFlatVel",
+      "fBrakeForce",
+      "fSteeringLock",
+      "fTractionCurveMax",
+      "fTractionCurveMin",
+      "fSuspensionForce"
+    ],
+    "profile_fields": {
+      "fMass": "fMass",
+      "fInitialDriveForce": "fInitialDriveForce",
+      "nInitialDriveGears": "nInitialDriveGears",
+      "fInitialDriveMaxFlatVel": "fInitialDriveMaxFlatVel",
+      "fBrakeForce": "fBrakeForce",
+      "fSteeringLock": "fSteeringLock",
+      "fTractionCurveMax": "fTractionCurveMax",
+      "fTractionCurveMin": "fTractionCurveMin",
+      "fSuspensionForce": "fSuspensionForce"
+    },
+    "profile_file": "profile.ini",
+    "runtime_parser": "RunLocal.ps1",
+    "generated_config": "src/CetMod/config.lua",
+    "profile_schema_version": 1
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "buffalo_driving_benchmark",
+    "host_game": "cyberpunk-2077",
+    "companion_game": "gta-v",
+    "mode": "single-player",
+    "window_title": "Buffalo Street Telemetry",
+    "description": "Record a Cyberpunk driving run beside the stock Buffalo handling reference read from the player's installed GTA V Legacy copy.",
+    "mod_folder": "BuffaloStreetTelemetry",
+    "generated_config": "src/CetMod/config.lua",
+    "codegen": "scripts/generate_config.py",
+    "speed_source": "Cyberpunk vehicle GetCurrentSpeed; show raw engine value without unit conversion",
+    "distance_unit": "world coordinate meters"
+  }
+]
